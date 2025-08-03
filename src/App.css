@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.redoUndo{
+  /* Style inspired by .exitButton */
+  background-image: linear-gradient(to right, #4B79A1 0%, #283E51 51%, #4B79A1 100%);
+  border: 1px solid #283E51;
+  border-radius: .35rem;
+  box-shadow: 0px 4px 0px #283E51;
+  color: white;
+  transition: 0.5s;
+  position: relative;
+  top: 0;
+  background-size: 200% auto;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 0.25rem 0.75rem;
+}
+
+.redoUndo:hover{
+  background-position: right center;
+}
+
+.redoUndo:active{
+  box-shadow: 0px 1px 0px #283E51;
+  top: 3px;
+}
+
+.solverButton {
+  /* Style inspired by .exitButton */
+  background-image: linear-gradient(to right, #4B79A1 0%, #283E51 51%, #4B79A1 100%);
+  margin: 0;
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0px 4px 0px #283E51;
+  border-radius: 10px;
+  border: 1px solid #283E51;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 1.2;
+  position: relative;
+  top: 0;
+}
+
+.solverButton:hover {
+  background-position: right center;
+  color: white;
+  text-decoration: none;
+}
+
+.solverButton:active {
+  box-shadow: 0px 1px 0px #283E51;
+  top: 3px;
+}

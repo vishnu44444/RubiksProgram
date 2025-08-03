@@ -1,0 +1,260 @@
+.warningPopup{
+    display:none;
+    position: absolute;
+
+    background-color: transparent;
+    border: none;
+    border-radius: .25rem;
+    z-index: 100;
+    color: lightgrey;
+    height: 100%;
+    max-height: 300px;
+    width:30vw;
+    margin-bottom: 100%;
+}
+
+.cpMessage{
+    margin:auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cpLeaveStay, .solverLeaveStay {
+  /* Style inspired by .exitButton */
+  background-color: white;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: black;
+  box-shadow: none;
+  border-radius: 10px;
+  border: none;
+  width: 40%;
+  font-size: 1rem;
+  font-weight: bold;
+  pointer-events: auto;
+}
+
+.cpLeaveStay:hover, .solverLeaveStay:hover {
+  background-position: right center; /* change the direction of the change here */
+  background-color: #f0f0f0;
+}
+
+.solveCpDiv,.checkCpDiv{
+  margin-top: 100px;
+}
+
+.cpErrorContainer {
+  padding-top:100px;
+}
+
+.cpErrorMessage{
+  color:red;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align:left;
+  list-style:none;
+  margin:2px;
+  line-height: 1.2;
+}
+
+.solveCp,.checkCp{
+  background-color: white;
+  margin: 10px auto;
+  padding: 23px 46px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: black;
+  box-shadow: none;
+  border-radius: 10px;
+  border: none;
+  pointer-events: auto;
+}
+
+.solveCp:hover, .checkCp:hover{
+  background-position: right center; /* change the direction of the change here */
+  background-color: #f0f0f0;
+}
+
+  .triggerBtn{
+    width:100%;
+    height:20%;
+    font-size: 1rem;
+    background-color: #e9eaeb;
+    color: lightgray;
+    border-radius: .25rem;
+    border: 1px solid #eff2f6;
+  }
+
+.cpInfo{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width:98%;
+  height:100%;
+}
+
+  .colorButtonContainer{
+    visibility: visible;
+    max-width: 400px;
+    height: 100%;
+    max-height: 300px;
+    float: right;
+  }
+
+  .colorButtonDiv{
+    width:50%;
+    height:25%;
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+
+  .bottomColorButtonDiv{
+    width:50%;
+    height:33%;
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+
+  .colorPicker{
+    width:100%;
+    height:100%;
+    display: inline-block;
+    border: 2px solid rgb(249, 241, 241);
+
+    transition: all .2s ease-in-out;
+    pointer-events: auto;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .colorPicker:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .exitButton {
+    /* New gradient style */
+    background-color: white;
+    margin: 10px auto;
+    padding: 23px 78px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: black;
+    box-shadow: none;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    border: none;
+  }
+  .exitButton:hover {
+    background-color: #f0f0f0;
+  }
+
+  .white{
+    margin-top: 0px;
+    margin-right: 2%;
+    background-color: white;
+    color: black;
+  }
+
+  .blue{
+    margin-top: 0px;
+    background-color: #0045ad;
+  }
+
+  .red{
+    margin-right: 2%;
+    background-color: #b90000;
+  }
+
+  .yellow{
+    background-color: #ffd500;
+    color: black;
+  }
+
+  .orange{
+    margin-right: 2%;
+    background-color: #ff5900;
+  }
+
+  .green{
+    background-color: #009b48;
+  }
+
+  .rightCp{
+    padding-left: 1%;
+  }
+
+  .leftCp{
+    padding-right: 1%;
+  }
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .warningPopup {
+    font-size: 0.9rem;
+    width: 85vw;
+    padding: 15px;
+    box-sizing: border-box;
+    max-height: none;
+    margin-bottom: 0;
+    /* Center the popup */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cpLeaveStay, .solverLeaveStay {
+    /* Keep popup buttons smaller on mobile */
+    padding: 10px 15px;
+    font-size: 0.8rem;
+  }
+
+  .solveCp, .checkCp, .exitButton {
+    /* Common styles for main buttons on mobile */
+    font-size: 0.9rem; /* Adjust font size */
+    min-height: 50px; /* Ensure buttons are easy to tap */
+  }
+
+  /* Specific padding to match desktop proportions, but scaled for mobile */
+  .solveCp, .checkCp { padding: 18px 36px; }
+  .exitButton { padding: 18px 60px; }
+
+  .cpInfo {
+    position: relative; /* Change positioning for mobile layout */
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .solveCpDiv, .checkCpDiv, .cpErrorContainer, .colorButtonContainer {
+    margin-top: 20px;
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .colorButtonContainer {
+    max-width: 320px; /* Adjust max-width for smaller screens */
+    float: none; /* Override float for flex layout */
+  }
+
+  .colorPicker:hover {
+    transform: none; /* Disable hover zoom on mobile */
+  }
+
+  .cpErrorMessage {
+    font-size: 0.9rem;
+  }
+}

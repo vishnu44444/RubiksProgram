@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.dropdown{
+    float: right!important;
+}
+
+.navbar{
+    padding: 1rem 1rem!important;
+}
+
+.settingsDropDown{
+    display: inline-block;
+    float: right;
+    margin-right: 4px;
+}
+
+.settingsDropDown > .settings > .dropdown-menu{
+    height: 100%;
+    min-height: 30vh;
+    color: #343a40!important;
+    border: 2px solid rgb(52, 58, 64);
+    overflow-y: scroll;
+    border-radius: .25rem;
+    background-color: transparent;
+}
+
+.checkbox-inline{
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.settingsDropDown > .settings > .dropdown-menu > ul{
+    padding-left: 8px;
+}
+
+.settingsDropDownItem{
+    width: 100%;
+    color: #007bff;
+    transition: all .4s;
+    background: rgba(0, 0, 0, .9);
+    border-radius: .25rem;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    pointer-events: auto;
+}
+
+.settings-label {
+    cursor: pointer;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-brand{
+    position: relative;
+    float: left;
+}
+
+.navbar-brand,.settings{
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+.settingsDropDown,.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoBtn,#fullscreenBtn,.settings > button{
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: .25rem;
+    transition: background-color .4s ease;
+    background-color:transparent;
+    color: lightgray;
+}
+
+#infoBtn:hover,#fullscreenBtn:hover,.settings > button:hover{
+    background-color: blue;
+}
+
+#closeBtn{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 40rem;
+    height: 2rem;
+    border: 2px solid #007bff;
+    pointer-events: auto;
+}
+
+#closeBtn:hover{
+    border-color: #007bff!important;
+    background-color: rgba(100, 100, 100,.5);
+}
+
+.cube-link {
+  color: rgb(238, 233, 233);
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.25rem;
+  border: 1px solid rgb(0, 0, 0); /* Added 'solid' to make the border appear */
+  border-radius: 1.25rem;
+  transition: all 0.4s ease;
+  white-space: nowrap;
+}
+  
+.cube-link:hover {
+  background-color: rgb(247, 243, 243);
+  color: black; /* Changed for readability on light background */
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+.navbar-title {
+   font-size: 1.7rem;
+font-family: 'Bebas Neue', cursive;
+font-weight: bold;
+color: white;
+margin-bottom: 0;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.fullscreen-container {
+    height: 100%;
+}

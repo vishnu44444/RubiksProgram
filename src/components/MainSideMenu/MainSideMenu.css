@@ -1,0 +1,34 @@
+.mainSideMenuButton{
+    width:100%;
+    max-width: 30vw;
+    padding-bottom: 5px;
+    /* Using flexbox for easier alignment */
+    display: flex; 
+   align-items: center; /* Aligns button to the center. Use 'flex-start' for top, or 'flex-end' for bottom. */
+   margin-top: 10px; /* moves all the button down*/
+    justify-content: center; /* Aligns button to the center. Use 'flex-start' for left, or 'flex-end' for right. */
+}
+
+.sideMenuButton{
+   width: 50%;
+padding: 15px 0;
+text-align: center;
+text-transform: uppercase;
+transition: 0.7s;
+background-size: 200% auto;
+color: rgb(255, 253, 253);
+box-shadow: 0 0 20px #00000010;
+border-radius: 10px;
+display: block;
+background-image: linear-gradient(to right, #606c88 0%, #3f4c6b 51%, #606c88 100%);
+border: none;
+font-size: 1rem;
+white-space: nowrap;
+pointer-events: auto;
+}
+
+.sideMenuButton:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}

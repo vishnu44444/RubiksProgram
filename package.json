@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vishnu44444.github.io/rubiks-cube",
   "name": "rubiks-cube",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "bootstrap": "^5.1.3",
     "easytimer.js": "^4.3.0",
     "jquery": "^3.5.1",
+    "main": "^1000.0.1",
     "rc-slider": "^8.7.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.1",

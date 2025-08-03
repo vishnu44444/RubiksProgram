@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/RubiksProgram/static/css/main.5f13b8e2.css",
+    "main.css": "/RubiksProgram/static/css/main.733a2cb2.css",
     "main.js": "/RubiksProgram/static/js/main.9a76b005.js",
     "service-worker.js": "/RubiksProgram/service-worker.js",
     "index.html": "/RubiksProgram/index.html",
-    "main.5f13b8e2.css.map": "/RubiksProgram/static/css/main.5f13b8e2.css.map",
+    "main.733a2cb2.css.map": "/RubiksProgram/static/css/main.733a2cb2.css.map",
     "main.9a76b005.js.map": "/RubiksProgram/static/js/main.9a76b005.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f13b8e2.css",
+    "static/css/main.733a2cb2.css",
     "static/js/main.9a76b005.js"
   ]
 }

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+https://vishnu44444.github.io/RubiksProgram/
 # Rubik's Cube Simulator
 
 This project is a Rubik's Cube simulator that allows users to interact with a virtual cube. You can try to solve the cube, input a real cube's state (2x2 through 10x10 urrently) to get a generated solution, or view various pattern algorithms for cubes from 2x2 to 10x10 with a turn-by-turn visual guide.
